@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Orlando Burger </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./IMG/bur.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="./CSS/aos.css">
+    <link rel="stylesheet" href="./CSS/font-awesome.css">
+   
+</head>
+<body>
+
+    <!--INICIO DEL HEADER-->
+    <header class="header">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="logo">
+                    <a href="#"><img src="./IMG/logo1.png" alt="logo"></a>
+                </div>
+                <button type="button" class="nav-toggler">
+                    <span> </span>
+                </button>
+
+                <nav class="nav">
+                    <ul>
+                        <li class="nav-item"><a href="#home"> Inicio </a></li>
+                        <li class="nav-item"><a href="#about">Sobre Nosotros</a></li>
+                        <li class="nav-item"><a href="#store1"> Menu</a></li>
+                        <li class="nav-item"><a href="#store2"> Mis compras</a></li>
+                        <li class="nav-item"><a href="#testimonials">Clientes</a></li>
+                        <li class="nav-item"><a href="#team">Nuestro Equipo</a></li>
+                        <li class="nav-item"><a href="#contact"> Contacto</a></li>
+                    </ul>
+                </nav>
+
+
+            </div>
+        </div>
+
+
+
+
+    </header>
+    <!--FIN DEL HEADER-->
+   <!--INICIO DE HOME-->
+    <section class="home-section" id="home">
+        <div class="home-bg"></div>
+        <div class="container">
+            <div class="row min-vh-100 align-items-center">
+                <div class="home-text" data-aos="fade-up" data-aos-duration="2000">
+                    <h1>Orlando Burguer</h1>
+                    <p> No te quedes con las ganas de probar las mejores hamburguesas del Mundo</p>
+                    <a href="#store1" class="btn btn-default" data-aos="fade-up">¡COME AQUI!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!--FIN DE HOME-->
+   
+
+   <!-- ACERCA DE-->
+    <section class="about-section sec-padding" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="section-title" >
+                    <h2 data-title="Historia" data-aos="fade-up">Sobre Nosotros</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="about-text"data-aos="fade-up-right">
+                    <h3>Bienvenido a Orlando Burguer</h3>
+                    <p> Somos la mejor cadena de comida rapida a nivel mundial con las mejores hamburguesas. Nuestros clientes quedan increiblemente satisfechos con todas nuestras especialidades</p>
+                    <p> LLevamos mas de 30 años siendo los concentidos de muchas familias que vienen a nuestras sucursales por nuestro increible sason en cada uno de nuestros platillos</p>
+                    <a href="#store1" class="btn btn-default"> Revisa nuestro Menu</a>
+                </div>
+                <div class="about-img" data-aos="fade-up-left">
+                    <div class="img-box">
+                        <img src="./IMG/bur1.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!--FIN DE ACERCA DE-->
+   <!--INICIO MENU Y CARRITO DE COMPRAS-->
+   <section class="store" id="store1">
+    <div class="container">
+        <div class="items">
+            <div class="section-title">
+                    <h2 data-title="Bienvenido a nuestro" data-aos="fade-up">MENU</h2>
+                    
+            </div>
+        </div>
+        <div class="menu-tabs" data-aos="fade-up">
+            <ul>
+                
+                <li>
+                    <a href="#burger" class="menu-links"> HAMBURGUESAS</a>
+                </li>
+                <li>
+                    <a href="#bebidas" class="menu-links"> BEBIDAS</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#postre" class="menu-links"> POSTRE </a>
+                </li>
+            </ul>
+        </div>
+
+
+            <div class="burger" id="burger">
+            <div class="row">
+                <div class="col-12 col-md-6" >
+                    <div class="item shadow mb-4" data-aos="fade-up-right" >
+                        <h3 class="item-title" data-aos="fade-up-right">Orlando Burguer</h3>
+                        <img class="item-image"  src="./img/orla.png">
+
+                        <div class="item-details">
+                            <h4 class="item-price">130.00$</h4>
+                            <button class="item-button btn btn-primary addToCart">Añadir a mis compras</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="item shadow mb-4" data-aos="fade-up-left">
+                        <h3 class="item-title"> Altisima </h3>
+
+                        <img class="item-image" src="./img/alta.jpg">
+
+                        <div class="item-details">
+                            <h4 class="item-price">160.00$ </h4>
+                            <button class="item-button btn btn-primary addToCart">Añadir a mis compras</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="item shadow mb-4" data-aos="fade-up-right">
+                        <h3 class="item-title">PASTOR AL ATUN</h3>
+
+                        <img class="item-image" src="./img/atun.png">
+
+                        <div class="item-details">
+                            <h4 class="item-price">150.00$</h4>
+                            <button class="item-button btn btn-primary addToCart">Añadir a mis compras</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="item shadow mb-4" data-aos="fade-up-left">
+                        <h3 class="item-title">DOBLE CARNE ORLANDO</h3>
+
+                        <img class="item-image" src="./img/doble.png">
+
+                        <div class="item-details">
+                            <h4 class="item-price">180.00$</h4>
+                            <button class="item-button btn btn-primary addToCart">Añadir a mis compras</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6" data-aos="fade-up-right">
+                    <div class="item shadow mb-4">
+                        <h3 class="item-title">CHORIZO ESPECIAL</h3>
+
+                        <img class="item-image" src="./img/chorizo.png">
+                        <div class="item-details">
+                            <h4 class="item-price">145.00$</h4>
+                            <button class="item-button btn btn-primary addToCart">Añadir a mis comprass</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="item shadow mb-4"data-aos="fade-up-left">
+                        <h3 class="item-title">LA VEGANA</h3>
+
+                        <img class="item-image" src="./img/vegana.jpg">
+                        <div class="item-details">
+                            <h4 class="item-price">120.00$</h4>
+                            <button class="item-button btn btn-primary addToCart">Añadir a mis compras</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            </div>
+            <div>
+                <h2 class="section-title" data-aos="fade-up"> BEBIDAS</h2>
+                
+            </div>
+            <div class="bebida" id="bebidas">
+                <div class="row">
+                    <div class="col-12 col-md-6" >
+                        <div class="item shadow mb-4" data-aos="fade-up-right" >
+                            <h3 class="item-title" data-aos="fade-up-right"> AZULITOS</h3>
+                            <img class="item-image"  src="./img/azulito.jpg">
+    
+                            <div class="item-details">
+                                <h4 class="item-price">60.00$</h4>
+                                <button class="item-button btn btn-primary addToCart">Añadir a mis compras </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4" data-aos="fade-up-left">
+                            <h3 class="item-title"> SODAS </h3>
+    
+                            <img class="item-image" src="./img/sodas.jpg">
+    
+                            <div class="item-details">
+                                <h4 class="item-price">35.00$ </h4>
+                                <button class="item-button btn btn-primary addToCart">Añadir a mis compras </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6" >
+                        <div class="item shadow mb-4" data-aos="fade-up-right" >
+                            <h3 class="item-title" data-aos="fade-up-right"> AGUA DE FRUTAS</h3>
+                            <img class="item-image"  src="./img/agua.jpg">
+    
+                            <div class="item-details">
+                                <h4 class="item-price">30.00$</h4>
+                                <button class="item-button btn btn-primary addToCart">Añadir a mis compras</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4" data-aos="fade-up-left">
+                            <h3 class="item-title"> CERVEZAS </h3>
+    
+                            <img class="item-image" src="./img/cerveza.jpg">
+    
+                            <div class="item-details">
+                                <h4 class="item-price">45.00$ </h4>
+                                <button class="item-button btn btn-primary addToCart">Añadir a mis compras</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div>
+            <h2 class="section-title" data-aos="fade-up"> POSTRES</h2>
+            </div>
+            <div class="postre" id="postre">
+                <div class="row">
+                    <div class="col-12 col-md-6" >
+                        <div class="item shadow mb-4" data-aos="fade-up-right" >
+                            <h3 class="item-title" data-aos="fade-up-right"> PASTELITOS</h3>
+                            <img class="item-image"  src="./img/pastelitos.jpg">
+    
+                            <div class="item-details">
+                                <h4 class="item-price">25.00$</h4>
+                                <button class="item-button btn btn-primary addToCart">Añadir a mis compras</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4" data-aos="fade-up-left">
+                            <h3 class="item-title"> MAGNUM HOLANDA </h3>
+    
+                            <img class="item-image" src="./img/helados-magnum.jpg">
+    
+                            <div class="item-details">
+                                <h4 class="item-price">35.00$ </h4>
+                                <button class="item-button btn btn-primary addToCart">Añadir a mis compras</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6" >
+                        <div class="item shadow mb-4" data-aos="fade-up-right" >
+                            <h3 class="item-title" data-aos="fade-up-right"> PAY DE LIMON</h3>
+                            <img class="item-image"  src="./img/pay-de-limon-helado.jpg">
+    
+                            <div class="item-details">
+                                <h4 class="item-price">130.00$</h4>
+                                <button class="item-button btn btn-primary addToCart">Añadir a mis compras</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4" data-aos="fade-up-left">
+                            <h3 class="item-title"> GELATINA DE FRUTAS </h3>
+    
+                            <img class="item-image" src="./img/gelatina-mixta-de-frutas.jpg">
+    
+                            <div class="item-details">
+                                <h4 class="item-price">60.00$ </h4>
+                                <button class="item-button btn btn-primary addToCart">Añadir a mis comprass</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- FIN DEL MENU -->
+
+<!-- INCIO DEL CARRITO DE COMPRAS -->
+<section class="shopping-cart" id="store2">
+    <div class="container">
+        <h1 class="text-center" data-aos="fade-up">TUS COMPRAS</h1>
+        <hr>
+        <div class="row">
+            <div class="col-6" data-aos="fade-up">
+                <div class="shopping-cart-header">
+                    <h6>Producto</h6>
+                </div>
+            </div>
+            <div class="col-2"data-aos="fade-up">
+                <div class="shopping-cart-header">
+                    <h6 class="text-truncate">Precio</h6>
+                </div>
+            </div>
+            <div class="col-4"data-aos="fade-up">
+                <div class="shopping-cart-header">
+                    <h6>Cantidad</h6>
+                </div>
+            </div>
+        </div>
+        
+        <div class="shopping-cart-items shoppingCartItemsContainer">
+        </div>
+        
+
+        <!-- INICIO DEL TOTAL DE COMPRAS -->
+        <div class="row">
+            <div class="col-12">
+                <div class="shopping-cart-total d-flex align-items-center">
+                    <p class="mb-0">Total</p>
+                    <p class="ml-4 mb-0 shoppingCartTotal">0 MXM</p>
+                    <div class="toast ml-auto bg-info" role="alert" aria-live="assertive" aria-atomic="true"
+                        data-delay="2000">
+                        <div class="toast-header">
+                            <span>✅</span>
+                            <strong class="mr-auto ml-1 text-secondary">Elemento en el carrito</strong>
+                            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="toast-body text-white">
+                            Se aumentó correctamente la cantidad
+                        </div>
+                    </div>
+                    <button class="btn btn-success ml-auto comprarButton" type="button" data-toggle="modal"
+                        data-target="#comprarModal">Comprar</button>
+                </div>
+            </div>
+        </div>
+
+        <!--FIN CARRITO DE COMPRAS-->
+
+        <!-- INCIO DEL MODAL COMPRA -->
+        <div class="modal fade" id="comprarModal" tabindex="-1" aria-labelledby="comprarModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="comprarModalLabel"> Orlando Burguer</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" data-aos="fade-up-right">
+                        <p> Gracias por su compra </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FINAL DEL MODAL COMPRA -->
+
+         <!-- SECCION DE CLIENTES -->
+
+         <section class="testimonials-section sec-padding" id="testimonials">
+             <div class="container">
+                 <div class="row">
+                     <div class="section-title" data-aos="fade-up">
+                         <h2 data-title="Nuestros" data-aos="fade-up">CLIENTES</h2>
+                     </div>
+                 </div>
+                 <div class="row">
+                     <div class="testi-item" data-aos="zoom-in">
+                         <div class="testi-author">
+                            <div class="testi-author-name">
+                                <h3> ALEX TURNER </h3>
+                                <span> Vocalista de Arctic Monkeys </span>
+                            </div>
+                            <div class="testi-author-img">
+                                <img src="./IMG/alex1.jpg" alt="testi author img">
+
+                            </div>
+                         </div>
+                         <p> Orlando Burguer is my favorite restaurant since I am a fan of all their burgers even when I go on tour I look for my manager to get me burgers from Orlando Burger before each presentation. </p>
+
+                         <div class="ratings">
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                         </div>
+                     </div>
+                     <div class="testi-item" data-aos="zoom-in">
+                        <div class="testi-author">
+                           <div class="testi-author-name">
+                               <h3> BENITO MOLINA </h3>
+                               <span> CHEF </span>
+                           </div>
+                           <div class="testi-author-img">
+                               <img src="./IMG/chef-benito-molina.jpg" alt="testi author img">
+
+                           </div>
+                        </div>
+                        <p> Durante toda mi trayectoria como CHEF en varios realitys show desarrollados en Mexico puedo decir que la mejor hamburguesa que he probado es de Orlando Burguer. </p>
+
+                        <div class="ratings">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="testi-item" data-aos="zoom-in">
+                        <div class="testi-author">
+                           <div class="testi-author-name">
+                               <h3> GORDON RAMSAY </h3>
+                               <span> CHEF </span>
+                           </div>
+                           <div class="testi-author-img">
+                               <img src="./IMG/gordon.jpg" alt="testi author img">
+
+                           </div>
+                        </div>
+                        <p> A delight to eat at Orlando Burguer. Amazing burgers. </p>
+
+                        <div class="ratings">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                 </div>
+             </div>
+         </section>
+
+          <!-- FINAL SECCION CLIENTES -->
+        <!--EQUIPO INICIO-->
+        <section class="team-section sec-padding" id="team">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2 data-title="Les presentamos a" data-aos="fade-up">NUESTRO EQUIPO</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="team-item" data-aos="flip-left">
+                        <img src="./IMG/Ling.jpg" alt="team item">
+                        <div class="team-item-info">
+                            <h2> LINGUINI</h2>
+                            <p>CHEF</p>
+                        </div>
+                    </div>
+                        <div class="team-item" data-aos="flip-left">
+                            <img src="./IMG/Remyteam.jpg" alt="team item">
+                            <div class="team-item-info">
+                                <h2> REMY</h2>
+                                <p>CHEF</p>
+    
+                            </div>
+                        </div>
+                        <div class="team-item" data-aos="flip-left">
+                            <img src="./IMG/Skinner.jpg" alt="team item">
+                            <div class="team-item-info">
+                                <h2>SKINNER</h2>
+                                <p>CHEF</p>
+    
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <!--FINAL EQUIPO-->
+    </div>
+
+</section>
+
+<!--FOOTER INICIO-->
+<footer class="footer" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="footer-item">
+                <h3>Nuestra locacion</h3>
+                <p> Bajo el fondo del mar, Fondo de Bikini <br> Enfrente del Balde de Bocados</p>
+            </div>
+            <div class="footer-item">
+                <h3>Nuestros Horarios</h3>
+                <p>Lunes a Viernes <br> 11:00 pm - 10:00pm</p>
+            </div>
+            <div class="footer-item">
+                <h3>Nuestras Redes Sociales</h3>
+                <p>01-800-Orlandoburguer</p> 
+                <p>orlandoburguer@gmail.com </p>
+                <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="copyright">
+                &copy; 2022 - Sitio de Orlando Palacios
+            </div>
+        </div>
+    </div>
+</footer>
+<!--FOOTER FINAL-->
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+   integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+   crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+   integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+   crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+   integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+   crossorigin="anonymous"></script>
+<script src="./JS/script.js"> </script>
+<script src="./JS/aos.js"> </script>
+</body>
+</html>
